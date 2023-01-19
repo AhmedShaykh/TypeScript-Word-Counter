@@ -1,5 +1,5 @@
 {
-  "name": "typescript-word-counter",
+  "name": "ahmx-word-count-cli",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -16,6 +16,9 @@
     "url": "https://github.com/AhmedShaykh/TypeScript-Word-Counter/issues"
   },
   "homepage": "https://github.com/AhmedShaykh/TypeScript-Word-Counter#readme",
+  "bin": {
+    "ahmx-word-count-cli": "bin/index.js"
+  },
   "dependencies": {
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",

@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import inquirer from "inquirer";
 import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
@@ -10,7 +12,7 @@ const runAnimation = () => {
 
 async function welcome() {
 
-    let animation = chalkAnimation.rainbow("Welcome to Word Counter CLI");
+    let animation = chalkAnimation.rainbow("Welcome to Word Counter CLI:");
     await runAnimation();
 
     animation.stop();
